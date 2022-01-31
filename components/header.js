@@ -68,7 +68,7 @@ export default function Header() {
           }
 
           .buttons > a {
-            display: ${hamburgerOpen ? "inline" : "none"};
+            display: inline;
             margin: auto;
             text-decoration: none;
             background: white;
@@ -101,6 +101,9 @@ export default function Header() {
               padding-top: 10px;
               margin-left: 10px;
               z-index: 10;
+            }
+            .buttons a {
+              display: ${isOpen ? "inline" : "none"}
             }
           }
         `}
