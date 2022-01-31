@@ -103,7 +103,7 @@ export default function Header() {
               z-index: 10;
             }
             .buttons a {
-              display: ${isOpen ? "inline" : "none"}
+              display: ${hamburgerOpen ? "inline" : "none"}
             }
           }
         `}
